@@ -3,7 +3,7 @@ layout: page
 permalink: /remote-avatar/
 ---
 
-# remoteAvatar / 远程罐头人头像投影
+# remoteAvatar / 远程罐头人动态头像
 
 联动方可以使用此程序展示一个动态/半动态的罐头人头像
 
