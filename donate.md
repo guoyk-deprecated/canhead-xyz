@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 赞助/Donate
+title: 赞助 / Donate
 permalink: /donate/
 ---
 
