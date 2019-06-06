@@ -12,3 +12,8 @@ permalink: /about/
 
 [点击前往查看](/remote-avatar)
 
+## UST1015 人工心智
+
+可以通过人工心智向我留言
+
+![qrcode](/assets/qrcode_for_gh_606a4d298963_258.jpg)
