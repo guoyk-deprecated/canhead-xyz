@@ -6,7 +6,7 @@ categories: video
 excerpt:    "日常小视频之轨道变更"
 ---
 
-<video data-content-autosize controls>
+<video controls>
   <source src="https://canhead-cn.oss-cn-beijing.aliyuncs.com/change-orbit.mp4" type="video/mp4">
 </video>
 <br/>

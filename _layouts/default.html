@@ -18,18 +18,55 @@
   </body>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script type="text/javascript">
-      $(document).ready(function() {
+      function isInternalURL(url) {
+          if (url.indexOf(".") == 0 ||
+              (url.indexOf("/") == 0 && url.indexOf("//") != 0) ||
+              url.indexOf("mailto") == 0 ||
+              url.indexOf(location.origin) == 0) {
+              return true
+          }
+          return false
+      }
+
+      function decorate() {
           // decode email from base64
           $('a[data-email]').each(function(i, elem) {
               var email = atob($(elem).attr("data-email"))
               $(elem).attr("href", "mailto:" + email)
               $(elem).text(email)
           })
-          // content autosize
-          $('[data-content-autosize]').each(function(i, elem) {
-              $(elem).width($(".post-content").width())
-              $(elem).height($(".post-content").width() * 720 / 1080)
+          // add target=_blank for external links
+          $('a').each(function(i, elem) {
+              if (!isInternalURL($(elem).attr("href"))) {
+                  $(elem).attr("target", "_blank")
+              }
           })
+          // add data-content-autosize
+          $(".post-content > p:nth-child(1) > img").attr("data-content-autosize", "width")
+          $(".post-content > iframe:nth-child(1)").attr("data-content-autosize", "both")
+          $(".post-content > video:nth-child(1)").attr("data-content-autosize", "both")
+      }
+
+      function resize() {
+          $('[data-content-autosize]').each(function(i, elem) {
+              if ($(elem).attr("data-content-autosize") == "width") {
+                  $(elem).width($(".post-content").width())
+              } else if ($(elem).attr("data-content-autosize") == "both") {
+                  $(elem).width($(".post-content").width())
+                  $(elem).height($(".post-content").width() * 720 / 1080)
+              }
+          })
+      }
+
+      // register ready
+      $(document).ready(function() {
+          // decorate elements
+          decorate()
+          // content autosize
+          resize()
       })
+
+      // register resizing
+      $(window).resize(resize)
   </script>
 </html>
