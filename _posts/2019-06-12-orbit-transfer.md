@@ -3,7 +3,7 @@ layout: post
 title:  "小视频：轨道变更"
 date:   2019-06-12 21:00:00 +0800
 categories: video
-excerpt:    "日常视频之轨道变更"
+excerpt:    "日常小视频之轨道变更"
 ---
 
 <video data-content-autosize controls>

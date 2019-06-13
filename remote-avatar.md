@@ -1,7 +1,7 @@
 ---
 layout: page
 hidden: true
-title: 远程动态头像 / remoteAvatar
+title: 远程动态头像/remoteAvatar
 permalink: /remote-avatar/
 ---
 
