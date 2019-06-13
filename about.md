@@ -6,7 +6,7 @@ permalink: /about/
 
 ## 静态头像
 
-![avatar-large](/assets/avatar-large.png)
+![avatar-large](https://canhead-cn.oss-cn-beijing.aliyuncs.com/avatar-large.png)
 
 ## 动态头像
 
@@ -16,4 +16,4 @@ permalink: /about/
 
 可以通过飞船人工心智向我留言
 
-![qrcode](/assets/qrcode_for_gh_606a4d298963_258.jpg)
+![qrcode](https://canhead-cn.oss-cn-beijing.aliyuncs.com/qrcode_for_gh_606a4d298963_258.jpg)

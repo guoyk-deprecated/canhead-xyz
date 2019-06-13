@@ -12,7 +12,7 @@ permalink: /donate/
 
 **RMB（微信）**
 
-![WX_DONATE_CODE](/assets/wx-donate-small.jpg)
+![WX_DONATE_CODE](https://canhead-cn.oss-cn-beijing.aliyuncs.com/wx-donate-small.jpg)
 
 **USD（BMC）**
 
