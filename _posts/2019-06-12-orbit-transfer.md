@@ -6,9 +6,10 @@ categories: video
 excerpt:    "日常视频之轨道变更"
 ---
 
-<video width="600" height="400" controls>
+<video data-content-autosize controls>
   <source src="https://canhead-cn.oss-cn-beijing.aliyuncs.com/change-orbit.mp4" type="video/mp4">
 </video>
+<br/>
 
-[查看 Bilibili 动态](https://vc.bilibili.com/video/2281304)
+[查看 Bilibili 动态 >>](https://vc.bilibili.com/video/2281304)
 
