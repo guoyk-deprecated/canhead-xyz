@@ -4,3 +4,6 @@ _site
 
 .DS_Store
 ._*
+
+.bundle/
+.vendor/bundle
