@@ -2,6 +2,7 @@
 layout: post
 title:  "视频：001 朴素的自我介绍"
 date:   2019-05-26 21:00:00 +0800
+icon: video-camera
 categories: video
 excerpt:    "拖了很久的自我介绍，十分朴素（简陋）"
 ---
