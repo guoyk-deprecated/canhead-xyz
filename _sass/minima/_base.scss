@@ -16,10 +16,10 @@ dl, dd, ol, ul, figure {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-image: url('https://canhead-cn.oss-cn-beijing.aliyuncs.com/satelite-bg.png');
+  background-image: url('https://canhead-cn.oss-cn-beijing.aliyuncs.com/satelite-darken-bg.png');
   background-color: $background-color;
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: top left;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
