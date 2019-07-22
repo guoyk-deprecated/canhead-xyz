@@ -12,8 +12,3 @@ permalink: /about/
 
 [点击前往查看](/remote-avatar)
 
-## UST1015 飞船人工心智
-
-可以通过飞船人工心智向我留言
-
-![qrcode](https://canhead-cn.oss-cn-beijing.aliyuncs.com/qrcode_for_gh_606a4d298963_258.jpg)
