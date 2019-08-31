@@ -12,4 +12,4 @@ permalink: /remote-avatar/
 在 OBS 中添加一个 “浏览器” 源，参数如下：
 
 * 地址: https://live.canhead.xyz
-* 尺寸：400x400
+* 尺寸: 400x400
